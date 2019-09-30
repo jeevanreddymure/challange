@@ -47,7 +47,9 @@ validate(event)
 document.addEventListener('click', event => {
 if (event.target && event.target.id === 'calculate') { updateWithAdd(event) }
 })
-
+document.addEventListener('click', event => {
+if (event.target && event.target.id === 'getJokeButton') { updateWithJoke(event) }
+})
    
   
 
